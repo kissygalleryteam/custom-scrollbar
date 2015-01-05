@@ -1,0 +1,56 @@
+/* Your Less Code here*/
+*{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+.custom-scrollbar{
+  width:200px;
+  height:300px;
+  overflow:hidden;
+  margin:20px auto;
+  background:#888;
+  color:#fff;
+  position:relative;
+}
+.custom-scrollbar-track{
+  position:absolute;
+  z-index:999;
+  width:10px;
+  right:1px;
+  top:0px;
+  height:0px;
+  overflow:hidden;
+  background:none;
+  //background: #ccc;
+  //opacity: 0.6;
+  //border-right: solid 1px #e8e8e8;
+
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius: 5px;
+
+  //-moz-box-shadow: inset 1px 0px 1 rgba(0,0,0,0.1);
+  //-webkit-box-shadow: inset 1px 0px 0 rgba(0,0,0,0.1);
+  //box-shadow: inset 1px 0px 1 rgba(0,0,0,0.1);
+}
+.scrollbar-handle{
+  position:absolute;
+  z-index:9999;
+  background:#444;
+  border:solid 1px #999;
+  height:60px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius: 5px;
+  width: 8px;
+  cursor: pointer;
+  /*
+  border-top:1px solid #666;
+  border-bottom:1px solid #111;
+  */
+}
+.custom-scrollbar-content{
+  position:relative;
+  z-index:1;
+}
