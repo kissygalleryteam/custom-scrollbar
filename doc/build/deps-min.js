@@ -1,1 +1,0 @@
-KISSY.config("requires",{"kg/custom-scrollbar/1.0.1/index":["node","base"],"kg/custom-scrollbar/1.0.1/lib/main":["node","base"]});

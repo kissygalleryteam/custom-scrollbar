@@ -1,1 +1,0 @@
-KISSY.add("kg/custom-scrollbar/1.0.1/lib/main",["node","base"],function(n,a,e,i){var o=(a("node").all,a("base"));i.exports=o.extend({initializer:function(){}},{ATTRS:{}})});
